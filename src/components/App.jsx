@@ -18,11 +18,13 @@ translateSlideTwo:"translateX(100%)"})
 
 
 
+
+
   return (
     <main className="container">
       <section className="slider">
         <Testimonialone translate={translate} setTranslate={setTranslate}/>
-        <Button translate={translate} setTranslate={setTranslate}/>
+        <Button translate={translate} setTranslate={setTranslate} />
         <Testimonialtwo translate={translate} setTranslate={setTranslate}/>
       </section>
     </main>

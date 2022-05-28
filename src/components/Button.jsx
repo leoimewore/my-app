@@ -15,6 +15,9 @@ function Button(props){
 function handleClickNext(){
   props.setTranslate({translateSlideOne:"translateX(0%)",
   translateSlideTwo:"translateX(100%)"})
+ 
+
+  
    
 }
 

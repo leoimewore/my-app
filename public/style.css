@@ -53,7 +53,8 @@ body{
     display: block;
     height: 100%;
     width:100%;
-    max-width: 1000px;
+    max-width: 800px;
+    min-width: 400px;
     height:50rem;
     margin: 0 auto;
     position: relative;
@@ -119,7 +120,7 @@ body{
     background-repeat: no-repeat;
     background-size: 80px;
     background-position: top center;
-    /* width:60% */
+    
 
 }
 
@@ -223,6 +224,9 @@ h1{
     transform: translateX(20rem);
     left:35%;
 
+}
+.testimonial{
+    width: 60%;
 }
 
 
