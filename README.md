@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://github.com/leoimewore/my-app.git)
 - Live Site URL: (https://leoimewore.github.io/my-app/)
 
 ## My process
@@ -49,31 +49,40 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learnt more about react- creating props and using react hooks
 
-To see how you can add code snippets, see below:
+------React-------
+function Testimonialone(props) {
+ 
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
+
+  return (
+    <section className="slide slide_1" style={{transform:props.translate.translateSlideOne}}>
+      <section className="testimonial">
+        <blockquote className="testimonial_text">
+          “ If you want to lay the best foundation possible I’d recommend taking
+          this course. The depth the instructors go into is incredible. I now
+          feel so confident about starting up as a professional developer. ”
+        </blockquote>
+        <h1>John Tarkpor</h1>
+        <p className="job__role">Junior Front-end Developer</p>
+      </section>
+      <div className="avatar">
+        <img src={require("./images/image-john.jpg")} alt="Avatar" />
+      </div>
+    </section>
+  );
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+export default Testimonialone;
+------React-------
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+
+
 
 ### Continued development
 
@@ -98,4 +107,4 @@ https://reactjs.com   Learnt a lot about the basics of reac
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Big Thank you to frontendmentor
