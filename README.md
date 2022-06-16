@@ -1,1 +1,1 @@
-//Slider Project
+//Slider Project# my-app
