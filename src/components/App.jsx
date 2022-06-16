@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import Button from "./Button";
+import "./style.css"
 
 import Testimonialone from "./Testimonialone";
 import Testimonialtwo from "./Testimonialtwo";
